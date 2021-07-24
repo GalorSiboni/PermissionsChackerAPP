@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PermissionsCheckerAPP</string>
+    <string-array name="permissions">
+        "READ_CALENDAR", "READ_CALL_LOG", "READ_EXTERNAL_STORAGE", "WRITE_CALENDAR", "WRITE_CALL_LOG", "WRITE_EXTERNAL_STORAGE",
+        "READ_CONTACTS", "WRITE_CONTACTS", "READ_PHONE_STATE", "READ_PHONE_NUMBERS", "READ_SMS", "CALL_PHONE", "CAMERA", "GET_ACCOUNTS",
+        "ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "RECORD_AUDIO", "BODY_SENSORS", "SEND_SMS", "RECEIVE_SMS", "RECEIVE_WAP_PUSH",
+        "RECEIVE_MMS", "ADD_VOICEMAIL"
+    </string-array>
+</resources>

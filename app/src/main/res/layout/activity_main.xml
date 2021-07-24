@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Permissions"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="80dp"
+        android:textSize="30dp"
+         />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Approved"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title"
+        android:visibility="invisible">
+    </TextView>
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/result"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:id="@+id/permission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Please write permission to check:"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/title">
+        </TextView>
+        <AutoCompleteTextView
+            android:id="@+id/permissionsACTV"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:completionHint="CALL_PHONE">
+        </AutoCompleteTextView>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="Check"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:layout_below="@+id/ll">
+    </Button>
+</RelativeLayout>

@@ -1,0 +1,3 @@
+rootProject.name = "PermissionsChackerAPP"
+include ':app'
+include ':app:permissionchecker'
