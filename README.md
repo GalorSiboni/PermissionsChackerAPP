@@ -1,3 +1,30 @@
-כותבים גלאור סיבוני ונדב הלוי
+Authors: Galor Siiboni & Nadav Halevy
+
+Check if run time permissions granted or not from the following list:
+
+1. "READ_CALENDAR"
+2. "READ_CALL_LOG"
+3. "READ_EXTERNAL_STORAGE"
+4. "WRITE_CALENDAR"
+5. "WRITE_CALL_LOG"
+6. "WRITE_EXTERNAL_STORAGE"
+7. "READ_CONTACTS"
+8. "WRITE_CONTACTS"
+9. "READ_PHONE_STATE"
+10. "READ_PHONE_NUMBERS"
+11. "READ_SMS"
+12. "CALL_PHONE"
+13. "CAMERA"
+14. "GET_ACCOUNTS"
+15. "ACCESS_FINE_LOCATION"
+16. "ACCESS_COARSE_LOCATION"
+17. "RECORD_AUDIO"
+18. "BODY_SENSORS"
+19. "SEND_SMS"
+20. "RECEIVE_SMS"
+21. "RECEIVE_WAP_PUSH"
+22. "RECEIVE_MMS"
+23. "ADD_VOICEMAIL"
+24. 
 
 https://github.com/GalorSiboni/PermissionsCheckerAPP
