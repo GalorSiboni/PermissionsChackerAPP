@@ -25,6 +25,5 @@ Check if run time permissions granted or not from the following list:
 21. "RECEIVE_WAP_PUSH"
 22. "RECEIVE_MMS"
 23. "ADD_VOICEMAIL"
-24. 
 
 https://github.com/GalorSiboni/PermissionsCheckerAPP
